@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>imageselect</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	
+	<script>
+	new WOW().init();
+	</script>
+</head>
+<body>
+<header class="header wow animate__animated animate__fadeInDown">
+	<div class="container">
+		<div class="header__wrapper" >
+			<div class="header__block">
+				<div class="logo">
+					<a href="../index.html"><img src="img/logo.svg" alt=""></a>
+				</div>
+							<div class="dropdown">
+									<button onclick="myFunction()" class="dropbtn">
+											<span class="logo__lng">
+												<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_1344_4043)">
+										<path d="M7.5 15.086C11.6421 15.086 15 11.7215 15 7.57104C15 3.42061 11.6421 0.0560303 7.5 0.0560303C3.35786 0.0560303 0 3.42061 0 7.57104C0 11.7215 3.35786 15.086 7.5 15.086Z" fill="#F0F0F0"/>
+										<path d="M1.54983 2.99573C0.960703 3.76376 0.516475 4.64897 0.257812 5.61063H4.15951L1.54983 2.99573Z" fill="#0052B4"/>
+										<path d="M14.7415 5.61061C14.4828 4.64898 14.0386 3.76376 13.4495 2.99573L10.8398 5.61061H14.7415Z" fill="#0052B4"/>
+										<path d="M0.257812 9.53149C0.516504 10.4931 0.960732 11.3783 1.54983 12.1463L4.15942 9.53149H0.257812Z" fill="#0052B4"/>
+										<path d="M12.0667 1.60946C11.3002 1.01915 10.4168 0.574028 9.45703 0.314819V4.2243L12.0667 1.60946Z" fill="#0052B4"/>
+										<path d="M2.93359 13.5324C3.70009 14.1227 4.58354 14.5678 5.54324 14.8271V10.9176L2.93359 13.5324Z" fill="#0052B4"/>
+										<path d="M5.54321 0.314819C4.58351 0.574028 3.70006 1.01915 2.93359 1.60943L5.54321 4.22427V0.314819Z" fill="#0052B4"/>
+										<path d="M9.45703 14.8271C10.4167 14.5678 11.3002 14.1227 12.0667 13.5324L9.45703 10.9176V14.8271Z" fill="#0052B4"/>
+										<path d="M10.8398 9.53149L13.4495 12.1464C14.0386 11.3784 14.4828 10.4931 14.7415 9.53149H10.8398Z" fill="#0052B4"/>
+										<path d="M14.9365 6.59083H8.47831H8.47828V0.119644C8.15804 0.0778708 7.83155 0.0560303 7.5 0.0560303C7.16839 0.0560303 6.84196 0.0778708 6.52175 0.119644V6.59077V6.5908H0.0634863C0.0217969 6.91168 0 7.23882 0 7.57104C0 7.90331 0.0217969 8.23039 0.0634863 8.55125H6.52169H6.52172V15.0224C6.84196 15.0642 7.16839 15.086 7.5 15.086C7.83155 15.086 8.15804 15.0642 8.47825 15.0224V8.55131V8.55128H14.9365C14.9782 8.23039 15 7.90331 15 7.57104C15 7.23882 14.9782 6.91168 14.9365 6.59083Z" fill="#D80027"/>
+										<path d="M9.45703 9.53165L12.8038 12.8851C12.9577 12.7309 13.1046 12.5697 13.2446 12.4026L10.3794 9.53162H9.45703V9.53165Z" fill="#D80027"/>
+										<path d="M5.54404 9.53162H5.54398L2.19727 12.885C2.35113 13.0393 2.512 13.1864 2.67876 13.3268L5.54404 10.4557V9.53162Z" fill="#D80027"/>
+										<path d="M5.54348 5.61063V5.61057L2.19672 2.25708C2.04279 2.41126 1.89596 2.57245 1.75586 2.73954L4.62118 5.6106H5.54348V5.61063Z" fill="#D80027"/>
+										<path d="M9.45703 5.61053L12.8038 2.25702C12.65 2.10279 12.4891 1.95566 12.3223 1.81531L9.45703 4.68636V5.61053V5.61053Z" fill="#D80027"/>
+									</g>
+										<defs>
+											<clipPath id="clip0_1344_4043">
+												<rect width="15" height="15.03" fill="white" transform="translate(0 0.0560303)"/>
+											</clipPath>
+										</defs>
+												</svg>
+											</span>
+										Eng
+										<span class="arow">
+										<svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M8 1.07007L4.5 4.07607L1 1.07007" stroke="#8C8C8C" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+										</span>
+									</button>
+  									<div class="menu">
+  											<div id="myDropdown" class="dropdown-content">
+    											<a class="link__lang" href="#home">
+    												<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g clip-path="url(#clip0_1345_4443)">
+															<path d="M7.5 14.5312C11.3906 14.5312 14.5312 11.3906 14.5312 7.5H0.46875C0.46875 11.3906 3.60937 14.5312 7.5 14.5312Z" fill="#FFE62E"/>
+															<path d="M7.5 0.46875C3.60937 0.46875 0.46875 3.60937 0.46875 7.5H14.5312C14.5312 3.60937 11.3906 0.46875 7.5 0.46875Z" fill="#428BC1"/>
+														</g>
+													<defs>
+														<clipPath id="clip0_1345_4443">
+															<rect width="15" height="15" fill="white"/>
+														</clipPath>
+													</defs>
+												</svg>
+											Ua
+											</a>
+						 				</div>
+								</div>
+							</div>
+							<div class="burger">
+							<div id="mySidenav" class="sidenav">
+								<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+									<div class="wrapper__block-side-bar-link-burger">
+										<div class="block__link-sidebar-nav">
+											<a class="nav__link" href="#">Blog</a>
+												<a class="nav__link" href="../index.html">Home</a>
+											</div>
+										<div class="block__link-sidebar-burger">
+										<div class="block__link__cart">
+												<div class="block__cart-burger">
+													<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M4.81116 0C3.48044 0 2.32049 0.905665 1.99775 2.19665L0.186196 9.44286C0.128689 9.67289 0.0996094 9.9091 0.0996094 10.1462V13.15C0.0996094 14.7516 1.39798 16.05 2.99961 16.05H13.9996C15.6012 16.05 16.8996 14.7516 16.8996 13.15V10.1462C16.8996 9.9091 16.8705 9.67289 16.813 9.44286L15.0015 2.19665C14.6787 0.905662 13.5188 0 12.1881 0H4.81116ZM3.744 2.63321C3.86643 2.14353 4.30641 1.8 4.81116 1.8H12.1881C12.6928 1.8 13.1328 2.14353 13.2552 2.63321L15.0668 9.87942C15.0685 9.88627 15.0701 9.89313 15.0717 9.9H12.57C11.9013 9.9 11.2768 10.2342 10.9059 10.7906L10.5933 11.2594C10.2224 11.8158 9.59795 12.15 8.92924 12.15H8.06998C7.40127 12.15 6.77681 11.8158 6.40588 11.2594L6.09334 10.7906C5.72241 10.2342 5.09795 9.9 4.42924 9.9H1.92752C1.9291 9.89313 1.93074 9.88627 1.93245 9.87942L3.744 2.63321Z" fill="#FF7F00"/>
+													<circle cx="13.5503" cy="13.0566" r="1.66752" fill="#FF7F00"/>
+													</svg>
+														<p class="text__link-block-cart">
+															Lightbox
+														</p>
+														<p class="text__link-block-cart-number">
+															12
+														</p>
+												</div>
+											<div class="block__link__cart">
+												<div class="block__cart-burger">
+											<svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.144531 0.900002C0.144531 0.402945 0.547475 0 1.04453 0H2.71205C3.11791 0 3.47355 0.271641 3.58034 0.663196L4.09367 2.54541L16.1114 3.33699C16.5845 3.36816 16.9522 3.76096 16.9522 4.23505V9.23762C16.9522 9.7079 16.5902 10.0989 16.1213 10.135L5.28237 10.9687C4.85195 11.0018 4.45864 10.7247 4.34505 10.3082L2.52594 3.63809L2.02464 1.8H1.04453C0.547475 1.8 0.144531 1.39706 0.144531 0.900002ZM6.921 4.85086C6.80045 4.36865 6.31181 4.07546 5.82959 4.19602C5.34738 4.31657 5.05419 4.80521 5.17474 5.28743L6.00851 8.62247C6.12906 9.10469 6.6177 9.39787 7.09992 9.27732C7.58213 9.15677 7.87532 8.66813 7.75476 8.18591L6.921 4.85086ZM9.6718 4.38632C10.1639 4.31603 10.6197 4.65794 10.69 5.15L11.1069 8.06816C11.1772 8.56022 10.8353 9.0161 10.3432 9.0864C9.85118 9.15669 9.3953 8.81478 9.325 8.32272L8.90812 5.40455C8.83783 4.91249 9.17974 4.45661 9.6718 4.38632ZM14.4513 5.48592C14.4513 4.98887 14.0484 4.58592 13.5513 4.58592C13.0543 4.58592 12.6513 4.98887 12.6513 5.48592V7.98721C12.6513 8.48427 13.0543 8.88721 13.5513 8.88721C14.0484 8.88721 14.4513 8.48427 14.4513 7.98721V5.48592Z" fill="#FF7F00"/>
+											<circle cx="6.88041" cy="13.4065" r="1.66752" fill="#FF7F00"/>
+											<circle cx="13.5503" cy="13.4065" r="1.66752" fill="#FF7F00"/>
+											</svg>
+											<p class="text__link-block-cart">
+												Your cart
+											</p>
+												<p class="text__link-block-cart-number">
+													99
+											</p>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+									<div class="btn__bottom-side-bar">
+										<div class="side__btn">
+										<a href="#" class="background">Register</a>
+									</div>
+									<div class="side__btn">
+										<a href="#" class="btn">Login</a>
+									</div>
+									</div>
+							</div>
+								<span class="open__burger" style="cursor:pointer" onclick="openNav()">
+								<svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect y="0.0440674" width="22" height="2" rx="1" fill="#FF7F00"/>
+									<rect x="2" y="7.04407" width="18" height="2" rx="1" fill="#FF7F00"/>
+									<rect y="14.0441" width="22" height="2" rx="1" fill="#FF7F00"/>
+								</svg>
+								</span>
+							</div>
+			</div><!-- header__block -->
+		</div><!-- header__wrapper -->
+	</div><!-- container --><!-- header -->
+</header><!-- header -->
+<section class="intro wow animate__animated animate__fadeIn">
+	<div class="container">
+		<div class="intro__wrapper">
+			<div class="intro__block">
+				<form class="form wow animate__animated animate__fadeInDown" action="" method="get">
+  					<input class="input" name="s" placeholder="Pleace use English keywords" type="search">
+  						<button class="button__search" type="submit">
+  							<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_0_4883)">
+										<path d="M9.35087 1.60203C7.21516 -0.533686 3.73911 -0.533686 1.6034 1.60203C-0.531861 3.73821 -0.531861 7.21379 1.6034 9.34997C3.50531 11.2514 6.46745 11.4551 8.60178 9.97037C8.64668 10.1829 8.74947 10.3857 8.91475 10.5509L12.025 13.6612C12.4783 14.1136 13.2107 14.1136 13.6617 13.6612C14.1145 13.2084 14.1145 12.476 13.6617 12.0246L10.5514 8.91339C10.387 8.74949 10.1838 8.64625 9.97127 8.60134C11.457 6.46655 11.2533 3.50487 9.35087 1.60203ZM8.3689 8.368C6.7744 9.96249 4.17941 9.96249 2.58537 8.368C0.991801 6.7735 0.991801 4.17897 2.58537 2.58447C4.17941 0.990439 6.7744 0.990439 8.3689 2.58447C9.9634 4.17897 9.9634 6.7735 8.3689 8.368Z" fill="white"/>
+									</g>
+								<defs>
+							<clipPath id="clip0_0_4883">
+								<rect width="14" height="14" fill="white"/>
+							</clipPath>
+								</defs>
+							</svg>
+						</button>
+				</form>
+				<div class="search wow animate__animated animate__fadeInDown">
+					<svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M7.50276 15.9986C5.76919 15.9986 4.03562 16.0019 2.30205 15.9986C0.980794 15.992 0.00312355 14.9682 0 13.5844C0 11.0035 0 8.42575 0.00312355 5.84804C0.00624709 4.45451 0.983917 3.43717 2.31767 3.4339C2.70187 3.4339 3.08919 3.43063 3.47338 3.4339C3.69828 3.4339 3.88882 3.35539 4.04812 3.18856C4.25427 2.97266 4.46042 2.75676 4.66658 2.54086C5.09763 2.10252 5.61301 1.87026 6.21273 1.86372C7.13418 1.85391 8.05563 1.85718 8.97707 1.86045C9.33941 1.86045 9.62677 2.08616 9.71735 2.4231C9.80794 2.75676 9.69549 3.12313 9.41125 3.29324C9.27693 3.37502 9.10826 3.42408 8.95521 3.42408C8.08062 3.43717 7.20602 3.4339 6.33143 3.42735C6.06593 3.42408 5.84416 3.50913 5.66299 3.71522C5.48495 3.91476 5.29754 4.10122 5.11325 4.29422C4.66346 4.762 4.11683 4.99426 3.48275 5.0008C3.08606 5.00407 2.6925 5.0008 2.29581 5.0008C1.8179 5.00407 1.50243 5.33446 1.50243 5.83496C1.50243 8.41266 1.50243 10.9936 1.50243 13.5713C1.50243 14.098 1.80853 14.4186 2.3083 14.4186C5.35376 14.4219 8.39922 14.4186 11.4447 14.4219C11.857 14.4219 12.2662 14.4251 12.6785 14.4219C13.1907 14.4186 13.4937 14.1013 13.4937 13.5648C13.4937 11.782 13.4937 9.9992 13.4937 8.21639C13.4937 7.90563 13.5874 7.6472 13.8467 7.4771C14.0872 7.32008 14.3402 7.307 14.5901 7.44439C14.8462 7.58505 14.993 7.81076 14.993 8.11499C14.9961 9.98938 15.0086 11.8671 14.9899 13.7415C14.9774 14.9518 13.9935 15.9626 12.8253 15.9855C11.8726 16.0051 10.9199 15.992 9.96724 15.992C9.14575 15.9986 8.32425 15.9986 7.50276 15.9986Z" fill="#858585"/>
+						<path d="M7.49687 13.4285C5.42812 13.4253 3.75 11.6992 3.75 9.57137C3.75 7.44352 5.43125 5.71423 7.49687 5.71423C9.575 5.71423 11.2531 7.44673 11.25 9.58102C11.2469 11.7121 9.56875 13.4317 7.49687 13.4285ZM5.25312 9.5778C5.25625 10.8539 6.26562 11.8889 7.50312 11.8857C8.75312 11.8824 9.75312 10.8474 9.75 9.55852C9.74687 8.28566 8.7375 7.25709 7.49375 7.2603C6.25312 7.26352 5.25 8.29852 5.25312 9.5778Z" fill="#858585"/>
+						<path d="M14.3744 3.78819C14.3744 4.22732 14.377 4.65038 14.3744 5.07344C14.3692 5.44831 14.0778 5.73213 13.7162 5.71339C13.3806 5.69732 13.1309 5.42153 13.1257 5.0547C13.1205 4.68519 13.1257 4.313 13.1231 3.94349C13.1231 3.89529 13.1231 3.8471 13.1231 3.78551C13.0607 3.78551 13.0138 3.78551 12.967 3.78551C12.608 3.78551 12.2464 3.78819 11.8874 3.78551C11.5284 3.78283 11.2552 3.50704 11.25 3.14824C11.2474 2.79479 11.518 2.51097 11.8796 2.50293C12.2438 2.49758 12.608 2.49758 12.9722 2.50293C13.0867 2.50561 13.1309 2.47616 13.1283 2.34763C13.1205 1.96741 13.1205 1.58987 13.1283 1.20965C13.1335 0.917788 13.313 0.676803 13.5731 0.599152C13.8385 0.518823 14.1247 0.615217 14.2651 0.85888C14.3276 0.968662 14.3666 1.1079 14.3718 1.23642C14.3848 1.60058 14.377 1.96741 14.377 2.33424C14.377 2.38244 14.377 2.43064 14.377 2.50026C14.442 2.50026 14.4967 2.50026 14.5513 2.50026C14.9077 2.50026 15.2615 2.49758 15.6179 2.50293C15.8989 2.50561 16.1226 2.67162 16.2111 2.92332C16.2995 3.17234 16.2345 3.44278 16.0446 3.6195C15.9197 3.73731 15.7714 3.78819 15.6049 3.78819C15.1991 3.78819 14.7958 3.78819 14.3744 3.78819Z" fill="#858585"/>
+					</svg>
+					<div class="text-search">
+						<p class="search-text">
+							Similar Search
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!-- intro -->
+<section class="contacts">
+		<div class="container">
+			<div class="contacts-wrapper">
+				<div class="contacts-block">
+					<h1 class="intro-title wow animate__animated animate__fadeInDown">
+						Contact us
+					</h1>
+					<img src="img/1.jpg" alt="" class="img-contact wow animate__animated animate__fadeInLeft">
+				</div>
+				<div class="contacts-block__number">
+					<div class="number-phone wow animate__animated animate__fadeInDown">
+						<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M16.4403 22.0001C14.9399 21.8313 13.6085 21.4303 12.3645 20.7972C6.92051 18.0253 2.8759 13.9303 0.60001 8.21121C0.309665 7.48268 0.170006 6.689 0.0211588 5.91368C-0.0312134 5.63841 0.0184024 5.28424 0.155305 5.04109C1.1513 3.26931 2.42844 1.72324 3.9941 0.415742C4.89729 -0.339399 5.69757 0.0377126 6.15146 0.729542C7.0372 2.08017 7.86137 3.47025 8.69657 4.85299C8.8445 5.09798 8.92811 5.38242 9.0301 5.6531C9.24326 6.21372 9.11738 6.70827 8.69014 7.11475C8.29229 7.49369 7.88066 7.85979 7.45801 8.21121C7.26506 8.37178 7.21361 8.50758 7.311 8.75348C8.43011 11.5942 10.4037 13.5752 13.264 14.6588C13.3963 14.7093 13.6462 14.6405 13.7519 14.5368C14.0992 14.1945 14.4079 13.8128 14.7276 13.4431C15.244 12.8467 15.8743 12.6861 16.5781 13.0329C17.4666 13.4706 18.3468 13.9303 19.2013 14.4303C19.8858 14.8304 20.5373 15.2901 21.186 15.7479C21.9688 16.3003 22.3758 17.0848 21.5268 18.0675C20.2258 19.5732 18.7125 20.8192 16.9861 21.8065C16.795 21.9166 16.5643 21.957 16.4403 22.0001Z" fill="#FF4D00"/>
+						</svg>
+						<p class="text-number__phone">
+							Telephones:
+						</p>
+					</div>	
+				</div>
+				<div class="contact-company">
+					<div class="wrapper-company">
+						<div class="block-company wow animate__animated animate__fadeInDown">
+							<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_0_5263)">
+									<path d="M7.5 15C11.6421 15 15 11.6421 15 7.5C15 3.35786 11.6421 0 7.5 0C3.35786 0 0 3.35786 0 7.5C0 11.6421 3.35786 15 7.5 15Z" fill="#F0F0F0"/>
+									<path d="M7.50006 0C4.27532 0 1.52625 2.03531 0.466553 4.89132H14.5336C13.4739 2.03531 10.7248 0 7.50006 0Z" fill="#A2001D"/>
+									<path d="M7.50006 15C10.7248 15 13.4739 12.9646 14.5336 10.1086H0.466553C1.52625 12.9646 4.27532 15 7.50006 15Z" fill="#0052B4"/>
+									</g>
+									<defs>
+									<clipPath id="clip0_0_5263">
+									<rect width="15" height="15" fill="white"/>
+									</clipPath>
+									</defs>
+							</svg>
+							<div class="name-number__company">
+								<p class="name-country">
+									Netherlands:
+								</p>
+								<p class="number-comany">
+									070-5146133 
+								</p>
+							</div>
+						</div>
+						<div class="block-company wow animate__animated animate__fadeInDown">
+							<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_0_5258)">
+									<path d="M0.466553 11.0374C1.52625 13.935 4.27532 16 7.50006 16C10.7248 16 13.4739 13.935 14.5336 11.0374L7.50006 10.3757L0.466553 11.0374Z" fill="#FFDA44"/>
+									<path d="M7.50006 0.78125C4.27532 0.78125 1.52625 2.84624 0.466553 5.7439L7.50006 6.40556L14.5336 5.74387C13.4739 2.84624 10.7248 0.78125 7.50006 0.78125Z" fill="black"/>
+									<path d="M0.466494 5.7439C0.165029 6.56824 0 7.45984 0 8.39062C0 9.3214 0.165029 10.213 0.466494 11.0373H14.5335C14.835 10.213 15 9.3214 15 8.39062C15 7.45984 14.835 6.56824 14.5335 5.7439H0.466494Z" fill="#D80027"/>
+									</g>
+									<defs>
+									<clipPath id="clip0_0_5258">
+									<rect width="15" height="15.2188" fill="white" transform="translate(0 0.78125)"/>
+									</clipPath>
+									</defs>
+							</svg>
+							<div class="name-number__company">
+								<p class="name-country">
+									Belgium:
+								</p>
+								<p class="number-comany">
+									02-6466461
+								</p>
+							</div>
+						</div>
+						<div class="block-company wow animate__animated animate__fadeInDown">
+							<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_0_5245)">
+									<path d="M7.5 15.6182C11.6421 15.6182 15 12.2603 15 8.11816C15 3.97603 11.6421 0.618164 7.5 0.618164C3.35786 0.618164 0 3.97603 0 8.11816C0 12.2603 3.35786 15.6182 7.5 15.6182Z" fill="#F0F0F0"/>
+									<path d="M5.86941 7.13991H14.9363C14.4569 3.46002 11.3104 0.618164 7.49981 0.618164C6.9398 0.618164 6.39438 0.680068 5.86938 0.796436V7.13991H5.86941Z" fill="#D80027"/>
+									<path d="M3.91303 7.13995V1.53015C1.85366 2.6538 0.379385 4.71487 0.0634766 7.13997H3.91303V7.13995Z" fill="#D80027"/>
+									<path d="M3.913 9.09644H0.0634766C0.379385 11.5215 1.85366 13.5826 3.91303 14.7062L3.913 9.09644Z" fill="#D80027"/>
+									<path d="M5.86938 9.09647V15.4399C6.39438 15.5563 6.9398 15.6182 7.49981 15.6182C11.3104 15.6182 14.4569 12.7763 14.9363 9.09644H5.86938V9.09647Z" fill="#D80027"/>
+									</g>
+									<defs>
+									<clipPath id="clip0_0_5245">
+									<rect width="15" height="15" fill="white" transform="translate(0 0.618164)"/>
+									</clipPath>
+									</defs>
+							</svg>
+							<div class="name-number__company">
+								<p class="name-country">
+									Denmark:
+								</p>
+								<p class="number-comany">
+									33153350 
+								</p>
+							</div>
+						</div>
+						<div class="block-company wow animate__animated animate__fadeInDown">
+							<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_0_5253)">
+									<path d="M7.5 15.4844C11.6421 15.4844 15 12.1265 15 7.98438C15 3.84224 11.6421 0.484375 7.5 0.484375C3.35786 0.484375 0 3.84224 0 7.98438C0 12.1265 3.35786 15.4844 7.5 15.4844Z" fill="#F0F0F0"/>
+									<path d="M15 7.98444C15 4.7597 12.9646 2.01063 10.1086 0.950928V15.018C12.9646 13.9582 15 11.2092 15 7.98444Z" fill="#D80027"/>
+									<path d="M0 7.98443C0 11.2092 2.03534 13.9582 4.89132 15.0179V0.950928C2.03534 2.01063 0 4.7597 0 7.98443Z" fill="#0052B4"/>
+									</g>
+									<defs>
+									<clipPath id="clip0_0_5253">
+									<rect width="15" height="15" fill="white" transform="translate(0 0.484375)"/>
+									</clipPath>
+									</defs>
+							</svg>
+							<div class="name-number__company">
+								<p class="name-country">
+									Row:
+								</p>
+								<p class="number-comany">
+									+31(0)70 5146133
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contacts-block__number wow animate__animated animate__fadeInDown">
+					<div class="number-phone">
+						<svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0.000833518 4.08008C2.52682 5.74762 4.93616 7.33769 7.34458 8.9287C8.37151 9.60706 9.40303 10.2779 10.4162 10.9779C10.8304 11.2642 11.1758 11.2519 11.5901 10.9742C14.5166 9.01279 17.4513 7.06181 20.3897 5.11934C20.8848 4.79244 21.413 4.51846 21.9687 4.19534C21.9797 4.3484 21.9981 4.47878 21.9981 4.60821C21.9999 8.11052 22.0018 11.6128 21.9981 15.1142C21.9962 16.7921 20.8297 17.9958 19.1993 17.9967C13.7303 17.9996 8.26128 18.0005 2.79228 17.9967C1.18667 17.9958 0.00450769 16.7921 0.0026706 15.1529C-0.00284065 11.6355 0.000833518 8.11713 0.000833518 4.59971C0.000833518 4.47783 0.000833518 4.35595 0.000833518 4.08008Z" fill="#FF4D00"/>
+							<path d="M11.0041 0.000745722C13.7523 0.000745722 16.5006 -0.00303341 19.2498 0.00263529C20.4761 0.00546964 21.48 0.763186 21.8548 1.92149C21.9494 2.21248 21.9329 2.39861 21.6481 2.58095C20.6001 3.25269 19.5741 3.96033 18.5315 4.64247C16.1424 6.20703 13.745 7.75742 11.3614 9.33143C11.084 9.51471 10.9012 9.50338 10.6348 9.32481C8.51574 7.90102 6.39207 6.48385 4.25922 5.08085C2.97877 4.2381 1.68546 3.41519 0.384804 2.60362C0.0908709 2.42034 0.0412697 2.23421 0.146902 1.91488C0.528097 0.759407 1.53023 0.00546964 2.75832 0.00263529C5.5066 -0.00303341 8.25487 0.000745722 11.0041 0.000745722Z" fill="#FF4D00"/>
+						</svg>
+						<div class="block-mail">
+							<p class="text-number__phone">
+								E-mail:
+							</p>
+							<p class="number-comany">
+								support@imageselec
+							</p>
+						</div>
+					</div>	
+				</div>
+				<div class="address-company wow animate__animated animate__fadeInDown">
+					<svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M18.0002 8.6605C17.9496 10.9113 17.1299 12.8571 15.561 14.5125C13.4873 16.702 11.5463 18.9931 9.79893 21.4345C9.25784 22.1903 8.76161 22.1857 8.21575 21.4382C6.41975 18.9776 4.49684 16.6232 2.38402 14.3971C0.0335822 11.919 -0.594347 8.97106 0.569899 5.8087C1.73605 2.6381 4.15616 0.719805 7.59927 0.127092C12.4748 -0.711134 17.2243 2.68024 17.8742 7.38805C17.9324 7.81037 17.9591 8.23635 18.0002 8.6605ZM9.03549 5.13171C6.9284 5.12255 5.20302 6.75411 5.19443 8.76494C5.18585 10.7923 6.87877 12.4458 8.97632 12.4568C11.0796 12.4687 12.8107 10.8307 12.8183 8.82265C12.825 6.79534 11.1311 5.14179 9.03549 5.13171Z" fill="#FF4D00"/>
+						<path d="M9.0144 10.9902C7.77381 10.9939 6.73458 10.0146 6.72122 8.82548C6.7069 7.61257 7.73755 6.60304 8.99722 6.59938C10.2588 6.59571 11.2971 7.59517 11.2904 8.80899C11.2837 10.0017 10.2559 10.9865 9.0144 10.9902Z" fill="#FF4D00"/>
+					</svg>
+					<div class="block-text__address-name">
+						<div class="block-address">
+						
+						<p class="text-address">
+							Address:
+						</p>
+						<p class="text-address__name">
+							Imageselect B.V.
+						</p>
+					</div>
+					<p class="text-address__name">
+							Nassaulaan 16 2243 HK Wassenaar<br>The Netherlandst.eu
+						</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+</section>
+<section class="info">
+	<div class="container">
+
+			<div class="info-block">
+				
+				<div class="back-symbol">
+					<h1 class="big-symbol wow animate__animated animate__fadeInDown">
+						?
+					</h1>
+				</div>
+				<div class="block-info-up">
+					<h1 class="title-info wow animate__animated animate__fadeInDown">
+					Got questions?
+				</h1>
+				<p class="info-about wow animate__animated animate__fadeInDown">
+					Our team answers all your enquiries. From finding an image for you to helping you clear rights, we can accompany you throughout your project. 
+				</p>
+				<p class="info-about wow animate__animated animate__fadeInDown">
+					Don't hesitate to consult our blog! We have tons of articles to help you better understand the stock photography industry. You can find articles about 
+				</p>
+				</div>
+		</div>
+	</div>
+</section>
+<section class="guides">
+	<div class="container">
+		<div class="guid-wrapper">
+			<div class="guid-block-1 wow animate__animated animate__fadeInDown">
+				<h2 class="title-block-guid wow animate__animated animate__fadeInDown">
+					How to guides
+				</h2>
+				<div class="block-link-guid">
+					<p class="about-guid-info wow animate__animated animate__fadeInDown">
+						A good, memorable logo is the basis of any company, its brand. This element should...
+					</p>
+					<a class="link-guid wow animate__animated animate__fadeInDown" href="#">
+						<svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M19.4814 7.78358C19.8475 7.41746 19.8475 6.82387 19.4814 6.45775L13.5152 0.49154C13.1491 0.125424 12.5555 0.125424 12.1894 0.49154C11.8232 0.857657 11.8232 1.45125 12.1894 1.81737L17.4927 7.12067L12.1894 12.424C11.8232 12.7901 11.8232 13.3837 12.1894 13.7498C12.5555 14.1159 13.1491 14.1159 13.5152 13.7498L19.4814 7.78358ZM0.0684814 8.05817L18.8185 8.05817V6.18317L0.0684814 6.18317L0.0684814 8.05817Z" fill="white"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+			<div class="guid-block-2 wow animate__animated animate__fadeInDown">
+				<h2 class="title-block-guid wow animate__animated animate__fadeInDown">
+					Creativity
+				</h2>
+				<div class="block-link-guid">
+					<p class="about-guid-info wow animate__animated animate__fadeInDown">
+						A good, memorable logo is the basis of any company, its brand. This element should...
+					</p>
+					<a class="link-guid wow animate__animated animate__fadeInDown" href="#">
+						<svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M19.4814 7.78358C19.8475 7.41746 19.8475 6.82387 19.4814 6.45775L13.5152 0.49154C13.1491 0.125424 12.5555 0.125424 12.1894 0.49154C11.8232 0.857657 11.8232 1.45125 12.1894 1.81737L17.4927 7.12067L12.1894 12.424C11.8232 12.7901 11.8232 13.3837 12.1894 13.7498C12.5555 14.1159 13.1491 14.1159 13.5152 13.7498L19.4814 7.78358ZM0.0684814 8.05817L18.8185 8.05817V6.18317L0.0684814 6.18317L0.0684814 8.05817Z" fill="white"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+			<div class="guid-block-3 wow animate__animated animate__fadeInDown">
+				<h2 class="title-block-guid wow animate__animated animate__fadeInDown">
+					Getting started with<br>the basics
+				</h2>
+				<div class="block-link-guid">
+					<p class="about-guid-info wow animate__animated animate__fadeInDown">
+						A good, memorable logo is the basis of any company, its brand. This element should...
+					</p>
+					<a class="link-guid wow animate__animated animate__fadeInDown" href="#">
+						<svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M19.4814 7.78358C19.8475 7.41746 19.8475 6.82387 19.4814 6.45775L13.5152 0.49154C13.1491 0.125424 12.5555 0.125424 12.1894 0.49154C11.8232 0.857657 11.8232 1.45125 12.1894 1.81737L17.4927 7.12067L12.1894 12.424C11.8232 12.7901 11.8232 13.3837 12.1894 13.7498C12.5555 14.1159 13.1491 14.1159 13.5152 13.7498L19.4814 7.78358ZM0.0684814 8.05817L18.8185 8.05817V6.18317L0.0684814 6.18317L0.0684814 8.05817Z" fill="white"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="link-footer">
+	<div class="container">
+		<div class="link__wrapper">
+			<div class="link__block">
+				<h3 class="title__contacts wow animate__animated animate__fadeInDown">
+					Our Policies
+				</h3>
+				<div class="sub__link-contacts wow animate__animated animate__fadeInDown">
+					<a href="#" class="link__contacts">Terms and conditions</a>
+				<a href="#" class="link__contacts">Website usage agreement</a>
+				<a href="#" class="link__contacts">Usage license</a>
+				</div>
+			</div>
+			<div class="contacts__block">
+				<h3 class="title__contacts wow animate__animated animate__fadeInDown">
+					Our Sites
+				</h3>
+				<div class="sub__link-contacts wow animate__animated animate__fadeInDown">
+					<a href="#" class="link__contacts">Regionimages.com</a>
+				<a href="#" class="link__contacts">Purebudget.com</a>
+				</div>
+			</div>
+		</div>
+		<div class="contacts__wrapper-bottom">
+			<div class="contacts__block">
+				<h3 class="title__contacts wow animate__animated animate__fadeInDown">
+					Imageselect
+				</h3>
+				<div class="sub__link-contacts wow animate__animated animate__fadeInDown">
+					<a href="#" class="link__contacts">Contact Us</a>
+				<a href="#" class="link__contacts">About us</a>
+				</div>
+			</div>
+			<div class="contacts__block right__link-contacts">
+				<h3 class="title__contacts wow animate__animated animate__fadeInDown">
+					Imageselect
+				</h3>
+				<div class="sub__link-contacts wow animate__animated animate__fadeInDown">
+					<a href="#" class="link__contacts">Rights Managed Images</a>
+				<a href="#" class="link__contacts">Royalty Free Images</a>
+				<a href="#" class="link__contacts">Editorial Images</a>
+				</div>
+			</div>
+		</div>
+		<div class="social__link">
+			<div class="soc__block">
+				<a href="#" class="link__soc-block wow animate__animated animate__fadeInDown">
+					<span class="elips1">
+						<svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M16.4506 1.90578C15.8912 2.14549 15.252 2.30531 	14.6127 2.38521C15.252 1.98569 15.8113 1.34644 16.051 0.627293C15.4118 1.02682 14.7726 1.26654 13.9735 1.42635C13.4142 0.787104 12.5352 0.387573 11.6562 0.387573C9.8983 0.387573 8.46 1.82588 8.46 3.5838C8.46 3.82352 8.46 4.06323 8.53991 4.30295C5.90302 4.14313 3.50585 2.86465 1.90774 0.94691C1.66802 1.42634 1.50821 1.98568 1.50821 2.54502C1.50821 3.6637 2.06755 4.62257 2.94651 5.18191C2.38717 5.18191 1.90774 5.0221 1.50821 4.78238C1.50821 6.30059 2.62689 7.65898 4.06519 7.8987C3.82547 7.97861 3.50586 7.97861 3.18623 7.97861C2.94652 7.97861 2.7867 7.97861 2.54698 7.8987C2.94651 9.17719 4.1451 10.1361 5.5834 10.1361C4.46472 11.015 3.10633 11.4945 1.58812 11.4945C1.3484 11.4945 1.10869 11.4945 0.789062 11.4146C2.22736 12.2935 3.90538 12.8529 5.74321 12.8529C11.6562 12.8529 14.8525 7.97861 14.8525 3.74361V3.34408C15.4917 3.10436 16.051 2.54502 16.4506 1.90578Z" fill="white"/>
+					</svg>
+					</span>
+				</a>
+				<a href="#" class="link__soc-block wow animate__animated animate__fadeInDown">
+					<span class="elips2">
+						<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M11.9184 0.588867H2.20068C1.10351 0.588867 0.267578 1.4248 0.267578 2.52197V12.2397C0.267578 13.3369 1.10351 14.1728 2.20068 14.1728H11.9184C13.0156 14.1728 13.8515 13.3369 13.8515 12.2397V2.52197C13.8515 1.4248 13.0156 0.588867 11.9184 0.588867ZM7.05956 11.456C9.30614 11.456 11.1347 9.67967 11.1347 7.53759C11.1347 7.17186 11.0825 6.7539 10.978 6.44042H12.1274V11.9785C12.1274 12.2397 11.9184 12.501 11.605 12.501H2.51416C2.25293 12.501 1.9917 12.292 1.9917 11.9785V6.38817H3.19336C3.08887 6.7539 3.03662 7.11962 3.03662 7.48534C2.98437 9.67967 4.81298 11.456 7.05956 11.456ZM7.05956 9.88866C5.59667 9.88866 4.44726 8.73925 4.44726 7.3286C4.44726 5.91796 5.59667 4.76855 7.05956 4.76855C8.52245 4.76855 9.67186 5.91796 9.67186 7.3286C9.67186 8.79149 8.52245 9.88866 7.05956 9.88866ZM12.0752 4.29833C12.0752 4.61181 11.8139 4.87304 11.5005 4.87304H10.0376C9.7241 4.87304 9.46288 4.61181 9.46288 4.29833V2.88769C9.46288 2.57422 9.7241 2.31299 10.0376 2.31299H11.5005C11.8139 2.31299 12.0752 2.57422 12.0752 2.88769V4.29833Z" fill="white"/>
+					</svg>
+					</span>
+				</a>
+				<a href="#" class="link__soc-block wow animate__animated animate__fadeInDown">
+					<span class="elips3">
+						<svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M11.1381 2.31967C10.118 1.29959 8.65166 0.789551 7.05779 0.789551C4.63512 0.789551 3.16877 1.80963 2.33996 2.63844C1.31988 3.65851 0.746094 4.99735 0.746094 6.39995C0.746094 8.12133 1.44739 9.39642 2.65873 9.90646C2.72249 9.97021 2.84999 9.97021 2.91375 9.97021C3.16876 9.97021 3.36004 9.77894 3.42379 9.52392C3.48755 9.39641 3.55129 9.01389 3.61505 8.82263C3.6788 8.50386 3.61506 8.37634 3.42379 8.12133C3.10502 7.7388 2.91375 7.22877 2.91375 6.59122C2.91375 4.74234 4.31635 2.76595 6.86654 2.76595C8.90668 2.76595 10.1818 3.91353 10.1818 5.76241C10.1818 6.90999 9.92676 7.99382 9.48048 8.82263C9.1617 9.39642 8.5879 10.034 7.7591 10.034C7.37657 10.034 7.0578 9.90646 6.86654 9.58768C6.67527 9.33266 6.61151 9.0139 6.67526 8.69512C6.73902 8.31259 6.86652 7.93007 6.99403 7.54754C7.1853 6.84624 7.44032 6.14494 7.44032 5.6349C7.44032 4.74234 6.86652 4.10479 6.03771 4.10479C4.95389 4.10479 4.12508 5.18862 4.12508 6.52746C4.12508 7.22876 4.31636 7.67505 4.38011 7.86631C4.2526 8.4401 3.42379 11.8191 3.29628 12.3929C3.23252 12.7754 2.65873 15.7081 3.55129 15.8994C4.50761 16.1544 5.40017 13.2854 5.46393 12.9667C5.52768 12.7117 5.78271 11.6916 5.91022 11.1178C6.3565 11.5641 7.12156 11.8828 7.88661 11.8828C9.28921 11.8828 10.5006 11.2453 11.3931 10.0977C12.2219 9.01389 12.7319 7.48378 12.7319 5.76241C12.6682 4.61483 12.1582 3.27598 11.1381 2.31967Z" fill="white"/>
+						</svg>
+					</span>
+				</a>
+				<a href="#" class="link__soc-block wow animate__animated animate__fadeInDown">
+					<span class="elips4">
+						<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M14.209 3.04181C14.209 1.8453 13.1532 0.789551 11.9567 0.789551H2.87726C1.68075 0.789551 0.625 1.8453 0.625 3.04181V12.1212C0.625 13.3178 1.68075 14.3735 2.87726 14.3735H7.45217V9.23554H5.76298V6.98328H7.45217V6.06829C7.45217 4.51986 8.57831 3.18258 9.98597 3.18258H11.8159V5.43484H9.98597C9.77482 5.43484 9.56367 5.64599 9.56367 6.06829V6.98328H11.8159V9.23554H9.56367V14.3735H11.9567C13.1532 14.3735 14.209 13.3178 14.209 12.1212V3.04181Z" fill="white"/>
+						</svg>
+					</span>
+				</a>
+			</div>
+			<div class="block__star wow animate__animated animate__fadeInDown">
+				<img class="starts" src="img/star.svg" alt="">
+			</div>
+		</div>	
+	</div>
+</section>
+<footer class="footer">
+	<div class="container">
+		<div class="footer__block">
+			<p class="footer__text wow animate__animated animate__fadeInDown">
+				Imageselect, your image partner for all your stock photos including royalty-free, rights managed images, editorial images and microstock © 2020 Imageselect
+			</p>
+		</div>
+	</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
